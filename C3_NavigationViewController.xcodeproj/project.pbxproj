@@ -13,6 +13,8 @@
 		48E8225627CF4CDB006E7A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E8225427CF4CDB006E7A64 /* Main.storyboard */; };
 		48E8225827CF4CDD006E7A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E8225727CF4CDD006E7A64 /* Assets.xcassets */; };
 		48E8225B27CF4CDD006E7A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E8225927CF4CDD006E7A64 /* LaunchScreen.storyboard */; };
+		48E8226327CF503A006E7A64 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E8226227CF503A006E7A64 /* SecondViewController.swift */; };
+		48E8226527CF5044006E7A64 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E8226427CF5044006E7A64 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		48E8225727CF4CDD006E7A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48E8225A27CF4CDD006E7A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48E8225C27CF4CDD006E7A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E8226227CF503A006E7A64 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		48E8226427CF5044006E7A64 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				48E8225027CF4CDB006E7A64 /* SceneDelegate.swift */,
 				48E8225227CF4CDB006E7A64 /* ViewController.swift */,
 				48E8225427CF4CDB006E7A64 /* Main.storyboard */,
+				48E8226227CF503A006E7A64 /* SecondViewController.swift */,
+				48E8226427CF5044006E7A64 /* SettingViewController.swift */,
 				48E8225727CF4CDD006E7A64 /* Assets.xcassets */,
 				48E8225927CF4CDD006E7A64 /* LaunchScreen.storyboard */,
 				48E8225C27CF4CDD006E7A64 /* Info.plist */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E8226527CF5044006E7A64 /* SettingViewController.swift in Sources */,
+				48E8226327CF503A006E7A64 /* SecondViewController.swift in Sources */,
 				48E8225327CF4CDB006E7A64 /* ViewController.swift in Sources */,
 				48E8224F27CF4CDB006E7A64 /* AppDelegate.swift in Sources */,
 				48E8225127CF4CDB006E7A64 /* SceneDelegate.swift in Sources */,
@@ -296,6 +304,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +332,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

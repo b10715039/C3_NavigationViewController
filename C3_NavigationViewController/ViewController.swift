@@ -11,9 +11,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.title = "首頁"
+        self.navigationController?.navigationBar.barTintColor = UIColor.lightGray
     }
 
-
+    @IBAction func toSecondView(_ sender: UIButton) {
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "SecondViewController") {
+            show(vc, sender: self)
+        }
+    }
+    
 }
 
